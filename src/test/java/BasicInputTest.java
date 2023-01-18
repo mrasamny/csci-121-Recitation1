@@ -42,6 +42,7 @@ public class BasicInputTest extends OutputTest
     }
 
     @Test
+    @DisplayName("[1] test main 1")
     public void testMain_1()
     {
         setTestInput("99\n3.77\nz\nHowdy");
@@ -61,6 +62,7 @@ public class BasicInputTest extends OutputTest
     }
 
     @Test
+    @DisplayName("[1] test main 2")
     public void testMain_2()
     {
         setTestInput("54\n6.02\nm\nBye");
